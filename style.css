@@ -9,6 +9,9 @@
     font-family: "Poppins", serif;
 }
 
+body{
+    background-color: #111111;
+}
 
 
 ul{
@@ -31,24 +34,29 @@ ul{
 }
 
 .li>a:hover{
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #ff9f0f;
+    color: #ff9f0f;
+
 }
 
 nav{
     background-color: #000000;
-    color: #ffffff;
+
     /* height: 100PX; */
 }
 
 #logo{
+    color: #ff9f0f;
     letter-spacing: 0.3ch;
     font-family: "Abril Fatface", serif     ;
     display: inline;
     line-height: 65px;
     float: left;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
     margin-left: 20px;
+    cursor: pointer;
     /* line-height: 80px; */
     
 }
+
