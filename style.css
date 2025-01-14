@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #111111;
+    background-color: #202020;
 }
 
 
@@ -41,6 +41,11 @@ ul{
 
 nav{
     background-color: #000000;
+    position: fixed;
+    width: 100%;
+    margin: 0;   
+    padding: 0;
+    /* margin-bottom:500px; */
 
     /* height: 100PX; */
 }
@@ -48,7 +53,7 @@ nav{
 #logo{
     color: #ff9f0f;
     letter-spacing: 0.3ch;
-    font-family: "Abril Fatface", serif     ;
+    font-family: "Abril Fatface", serif ;
     display: inline;
     line-height: 65px;
     float: left;
@@ -58,5 +63,47 @@ nav{
     cursor: pointer;
     /* line-height: 80px; */
     
+}
+
+.containers{
+    
+    line-height: 200px;
+    
+    
+
+}
+
+.containers>h1{
+    color: #ff9f0f;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+input[type="search"]{
+
+   margin-right: 8px;
+   padding-left: 5px;
+   width: 120px;
+}
+
+.active>a:active{
+
+    color: #ff9f0f;
+}
+
+.btn{
+    background-color: #ff9f0f;
+    color: #000000;
+    border: none;
+    margin-right: 15px;
+    height: 22px;
+    width: 55px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.btn:hover{
+    cursor: pointer;
+
 }
 
